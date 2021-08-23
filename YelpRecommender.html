@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.3.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/RecSys.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/RSEquations.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/RSCode.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Yelp Restaurant Hybrid Recommender System</h3>
+              <ul>
+                <li><strong>Category</strong>: ML model</li>
+                <li><strong>Client</strong>: Durham University</li>
+                <li><strong>Project date</strong>: March 2021</li>
+                <li><strong>Project URL</strong>: <a href="#">Awaiting Publication Approval</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Summary</h2>
+              <p>
+                A collaborative and content-based filtering hybrid recommender system used for recommending restaurants
+                to Yelp users. MAde using SciPy, Pandas and SKLearn.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <h2>STAR Breakdown</h2>
+            <ul>
+              <li style="margin-bottom: 12px;"><strong>Situation: </strong>In order to see the effect of hybridizing
+                different recommendation methods, I needed to experiment with recommender systems and learn to test
+                them.
+              </li>
+              <li style="margin-bottom: 12px;"><strong>Task: </strong>I was asked to develop a recommender system for
+                restaurants in the Yelp reviews dataset. This recommender system needed to be a hybrid but it was up to
+                me to choose the methods hybridized and how. I was also asked to test these methods but not specified as
+                to how.</li>
+              <li style="margin-bottom: 12px;"><strong>Action: </strong>I firstly read a large amount of literature on
+                the implementation and effects of hybrid recommender systems. As a topic I find massively interesting
+                and relevant to my ideal career projection, I enjoyed learning more than just what was needed to
+                complete the task. After understanding the theory behind the system I needed to build, I set to
+                preparing and filtering the data using Pandas in order to create high quality inputs for my system. As
+                for the system itself, the collaborative filter was implemented first through a SciPy dense matrix of
+                users and items. I then implemented the content-based filter using SKLearn and the written descriptions
+                of the restaurants. These were then hybridized using the tie-break method where collaborative filtering
+                would rank the restaurants while the content-based filter broke any ties in the score.</li>
+              <li style="margin-bottom: 12px;"><strong>Result: </strong>The hybrid filter was then tested for diversity,
+                accuracy and precision as well as the ethical implications and explainability of results. The unchanged
+                collaborative filter actually very slightly outperformed the hybrid for accuracy however the opposite
+                was the case for precision and diversity.</li>
+            </ul>
+
+            <video width="100%" controls>
+              <source src="assets/img/portfolio/hybrid_filt_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
