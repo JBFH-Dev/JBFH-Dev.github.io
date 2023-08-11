@@ -508,6 +508,14 @@ section {
   color: #494949;
 }
 
+img.logo {
+  height: 10%;
+  width: 10%;
+  border-radius: 5%; 
+  display: block; 
+  margin-bottom: 10px;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
