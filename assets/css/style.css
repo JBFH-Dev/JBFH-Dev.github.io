@@ -419,6 +419,59 @@ section {
   margin-bottom: 0;
 }
 
+.about .info {
+  width: 100%;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .info i {
+  font-size: 20px;
+  color: #595959;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projectButton {
+  border-style: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+}
+
+.about .info h5 {
+  padding: 0 0 0 0px;
+  margin-bottom: 0px;
+}
+
+.about .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #949494;
+}
+
+.about .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.about .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #595959;
+  color: #f3f3f3;
+}
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
