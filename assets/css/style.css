@@ -437,7 +437,7 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  margin-right: 16px;
+  margin-right: 11px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -447,7 +447,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 13px;
+  padding: 14px;
+  background-color: #f3f3f3;
 }
 
 .about .info h5 {
